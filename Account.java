@@ -8,7 +8,7 @@ public class Account {
     double balnace;
     int securityNumber ;
 
-    Account(String userName ,String idCardNumber , int userID , int securityNumber  ){
+    public Account(String userName ,String idCardNumber , int userID , int securityNumber  ){
         name = userName ;
         accountID = userID ;
         this.idCardNumber = idCardNumber;

@@ -2,6 +2,8 @@ public class Project {
 
     public static void main(String[] args) {
         
+        Account a = new Account(null, null, 0, 0);
+        System.out.println(a.accountID);
         Account p = new Account("vin" , "123" ,001 , 123456);
         System.out.println(p.balnace);
         Withdraw bmw = new Withdraw(001 , 20.02 , "23-01-2025");
