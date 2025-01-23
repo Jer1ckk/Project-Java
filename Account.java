@@ -1,28 +1,15 @@
 public class Account {
-
-    String name;
-    String dateOfBirth;
-    String phoneNumbe;
-    boolean isMale;
     int accountID;
-    String idCardNumber;
-    double balnace;
-    int securityNumber ;
+    String accountType;
+    double balance;
+    String dateCreated;
+    int customerID;
 
-    public Account(String userName ,String dateOfBirth,String idCardNumber,boolean isMale , int securityNumber  ){
-        name = userName ;
-        this.idCardNumber = idCardNumber;
-        this.dateOfBirth = dateOfBirth ;
-        this.isMale = isMale ;
-        this.securityNumber = securityNumber;
+    public Account(int accountID, String accountType, double balance, String dateCreated, int customerID) {
+        this.accountID = accountID;
+        this.accountType = accountType;
+        this.balance = balance;
+        this.dateCreated = dateCreated;
+        this.customerID = customerID;
     }
-//     Account(String username , String dateOfBirth , String phoneNumber , int accountID ,boolean isMale, double balance , int securityNumber ){
-//         name = username ;
-//         this.dateOfBirth = dateOfBirth ;
-//         this.phoneNumbe = phoneNumber ;
-//         this.accountID = accountID ;
-//         this.isMale = isMale ;
-//         this.balnace = balance ;
-//         this.securityNumber = securityNumber ;
-//     }
 }
